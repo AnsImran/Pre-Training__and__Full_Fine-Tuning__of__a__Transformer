@@ -8,7 +8,7 @@ from sentencepiece import SentencePieceProcessor
 
 # Load SentencePiece tokenizer
 tokenizer = SentencePieceProcessor()
-tok_path  = r"C:\Users\Ans\Desktop\code\09_NLP_Project\02__PreTraining_+_Full_Fine_Tuning_a_Transformer\copy\models\sentencepiece.model"
+tok_path  = r"C:\Users\Ans\Desktop\code\09_NLP_Project\Pre-Training__and__Full_Fine-Tuning__of__a__Transformer\05_Deployment\sentencepiece.model"
 tokenizer.load(tok_path)
 
 # Define model parameters
@@ -34,7 +34,7 @@ transformer = transformer_utils.Transformer(
 )
 
 device_ = 'cuda' if cuda.is_available() else 'cpu'
-path = r"C:\Users\Ans\Desktop\code\09_NLP_Project\02__PreTraining_+_Full_Fine_Tuning_a_Transformer\copy\models\best_qA_model_106th_epoch.pt"
+path = r"C:\Users\Ans\Desktop\code\09_NLP_Project\Pre-Training__and__Full_Fine-Tuning__of__a__Transformer\05_Deployment\best_qA_model_106th_epoch.pt"
 
 checkpoint = load(path, map_location=device_, weights_only=True)
 transformer.load_state_dict(checkpoint['model_state_dict'])

@@ -52,6 +52,8 @@ running a python script in a virtual env from anywhere u want.
 
 python -m uvicorn main:app --app-dir "C:/Users/Ans/Desktop/code/09_NLP_Project/02__PreTraining_+_Full_Fine_Tuning_a_Transformer/copy"
 
+python -m uvicorn main:app --app-dir "C:/Users/Ans/Desktop/code/09_NLP_Project/Pre-Training__and__Full_Fine-Tuning__of__a__Transformer/05_Deployment"
+
 
 what is the color of the sky? context: sky is blue 
 
