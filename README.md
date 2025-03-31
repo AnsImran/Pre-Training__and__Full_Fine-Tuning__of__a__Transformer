@@ -1,11 +1,4 @@
-
-
-
-<img src="images/transformer_copy.png" alt="full_tr" width="300"/>
-
 **tags**: PyTorch, numpy, pandas, Data Processing, Tokenization, Padding, Generator, Positional-Encoding, Padding-Mask, Look-Ahead-Mask, Encoder, Decoder, MultiHead-Self-Attention, Residual-Connectioncs, Batch Normalization, Feed-Forward-Neural-Networks, Embedding-Layer, Dropout-Layer, Masked-MultiHead-Self-Attention-(Causal-Attention), Linear-Layer, Log-Softmax, Training-Loop, Epochs, Learning Rate, Batch-Size, Pad-Index, Loss-Function, Optimizer, Predictions, Gradients & Updating Weights.
-
-
 
 
 ---
@@ -18,8 +11,11 @@
 
 ---
 ## Deploying with FastAPI: Snapshots
+### Unseen Data
 <img src="04_Results/api-in-action-p1.JPG" alt="1" width="1000"/>
 <img src="04_Results/api-in-action-p2.JPG" alt="2" width="1000"/>
+
+### Training Data
 <img src="04_Results/api-in-action-p3.JPG" alt="3" width="1000"/>
 <img src="04_Results/api-in-action-p4.JPG" alt="4" width="1000"/>
 
