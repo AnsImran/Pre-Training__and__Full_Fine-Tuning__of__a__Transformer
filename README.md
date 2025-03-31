@@ -1,5 +1,4 @@
-**tags**: PyTorch, numpy, pandas, Data Processing, Tokenization, Padding, Generator, Positional-Encoding, Padding-Mask, Look-Ahead-Mask, Encoder, Decoder, MultiHead-Self-Attention, Residual-Connectioncs, Batch Normalization, Feed-Forward-Neural-Networks, Embedding-Layer, Dropout-Layer, Masked-MultiHead-Self-Attention-(Causal-Attention), Linear-Layer, Log-Softmax, Training-Loop, Epochs, Learning Rate, Batch-Size, Pad-Index, Loss-Function, Optimizer, Predictions, Gradients & Updating Weights.
-
+**tags**: PyTorch, Pre-Training, Masked-Language-Modelling, Full-Fine-Tuning, Question-Answering. 
 
 ---
 # PyTorch
