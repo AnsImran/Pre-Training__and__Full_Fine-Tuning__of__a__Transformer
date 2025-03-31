@@ -20,58 +20,57 @@
 <img src="04_Results/api-in-action-p4.JPG" alt="4" width="1000"/>
 
 ---
-# [Table of Contents](https://github.com/AnsImran/Transformer_from_Scratch_for_Text_Summarization/blob/master/Transformer_from_Scratch_for_Text_Summarization_(PyTorch_Implementation).ipynb)
+# [Table of Contents](https://github.com/AnsImran/Pre-Training__and__Full_Fine-Tuning__of__a__Transformer/blob/main/02_Data_Processing_%26_Model_Training/Encoder-Decoder_Transformer_Pretraining_%2B_Full%20Fine%20Tuning.ipynb)
 
-### 1. Data Processing
-- Loading
-- Preprocessing
-- Tokenization
-- Padding
-- Generator
+## **Pretraining Section-1**
 
-### 2. Useful Functions
-- Positional Encoding
-- Padding Mask
-- Look Ahead Mask
+### Dataprocessing for Pre-Training
 
-### 3. Transformer (Encoder-Decoder)
-- Encoder Layer
-  - MultiHead Self-Attention
-  - Residual Connection & Batch Normalization
-  - Feed Forward Neural Network
-  - Residual Connection & Batch Normalization
-- Full Encoder
-  - Embedding Layer
-  - Positional Encoding
-  - Dropout Layer
-  - Encoder LayerS
-- Decoder Layer
-  - Masked MultiHead Self-Attention (Causal Attention)
-  - Residual Connection & Batch Normalization
-  - MultiHead Attention
-  - Residual Connection & Batch Normalization
-  - Feed Forward Neural Network
-  - Residual Connection & Batch Normalization
-- Full Decoder
-  - Embedding Layer
-  - Positional Encoding
-  - Dropout Layer
-  - Decoder layerS
-- Full TRANSFORMER
-  - Encoder + Decoder + Linear Layer
-  - Log Softmax
-### 4. Training Loop
-- Epochs, Learning Rate, Batch Size and Pad-Index
-- Loss Function
-- Optimizer
-- Computing Loss
-- Predictions
-- Clearing Gradients
-- Updating Weights
-### 5. Inference
-- Next Word Prediction Function
-- Summarization Function
-### 6. Conclusion
-- Some Remarks on Results
+ - #### Pre-Training Objective
+
+ - #### C4 Dataset Description
+
+ - #### Loading the Data
+
+ - #### Processing C4 Dataset
+
+   - ##### Loading Pretrained Tokenizer
+
+   - ##### Masked Language Modelling
+
+   - ##### Creating Input-Target pairs
+
+
+
+## **Pretraining Section-2**
+
+- #### Instantiating a New Transformer Model
+
+- #### Setting up Dataloader
+
+- #### Training Loop
+
+
+
+## **Fine-Tuning Section-1**
+
+### Data Processing for Fine-Tuning
+
+- #### Data Loading - SQuAD 2.0 Dataset
+
+- #### Data Parsing
+
+
+## **Fine-Tuning Section-2**
+
+- #### Setting up Dataloader
+
+- #### Training Loop
+
+- #### Inference
+
+
+
+## **Conclusion & What's Next?**
 ---
 
