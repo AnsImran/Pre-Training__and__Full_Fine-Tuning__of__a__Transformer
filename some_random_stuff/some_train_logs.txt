@@ -1,0 +1,2118 @@
+**FINE TUNING**
+Actually from the first epoch after pretraining
+
+
+Epoch [1/100]
+[Batch 20/625] Loss: 11.0895
+[Batch 40/625] Loss: 9.2953
+[Batch 60/625] Loss: 8.2449
+[Batch 80/625] Loss: 7.6909
+[Batch 100/625] Loss: 7.3293
+[Batch 120/625] Loss: 7.0713
+[Batch 140/625] Loss: 6.8850
+[Batch 160/625] Loss: 6.7341
+[Batch 180/625] Loss: 6.6064
+[Batch 200/625] Loss: 6.5096
+[Batch 220/625] Loss: 6.4202
+[Batch 240/625] Loss: 6.3433
+[Batch 260/625] Loss: 6.2822
+[Batch 280/625] Loss: 6.2267
+[Batch 300/625] Loss: 6.1765
+[Batch 320/625] Loss: 6.1312
+[Batch 340/625] Loss: 6.0906
+[Batch 360/625] Loss: 6.0489
+[Batch 380/625] Loss: 6.0149
+[Batch 400/625] Loss: 5.9785
+[Batch 420/625] Loss: 5.9523
+[Batch 440/625] Loss: 5.9240
+[Batch 460/625] Loss: 5.8946
+[Batch 480/625] Loss: 5.8748
+[Batch 500/625] Loss: 5.8514
+[Batch 520/625] Loss: 5.8302
+[Batch 540/625] Loss: 5.8099
+[Batch 560/625] Loss: 5.7872
+[Batch 580/625] Loss: 5.7693
+[Batch 600/625] Loss: 5.7493
+[Batch 620/625] Loss: 5.7325
+Epoch Time: 26.80s | Average Loss: 5.7281
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['', '', ':', 'white', 'the', 'is', 'in', 'glass', 'to', 'their']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [2/100]
+[Batch 20/625] Loss: 5.0523
+[Batch 40/625] Loss: 5.0574
+[Batch 60/625] Loss: 5.0607
+[Batch 80/625] Loss: 5.0523
+[Batch 100/625] Loss: 5.0544
+[Batch 120/625] Loss: 5.0501
+[Batch 140/625] Loss: 5.0450
+[Batch 160/625] Loss: 5.0345
+[Batch 180/625] Loss: 5.0275
+[Batch 200/625] Loss: 5.0160
+[Batch 220/625] Loss: 5.0202
+[Batch 240/625] Loss: 5.0126
+[Batch 260/625] Loss: 5.0055
+[Batch 280/625] Loss: 4.9986
+[Batch 300/625] Loss: 4.9988
+[Batch 320/625] Loss: 4.9952
+[Batch 340/625] Loss: 4.9936
+[Batch 360/625] Loss: 4.9890
+[Batch 380/625] Loss: 4.9845
+[Batch 400/625] Loss: 4.9797
+[Batch 420/625] Loss: 4.9758
+[Batch 440/625] Loss: 4.9731
+[Batch 460/625] Loss: 4.9736
+[Batch 480/625] Loss: 4.9699
+[Batch 500/625] Loss: 4.9649
+[Batch 520/625] Loss: 4.9626
+[Batch 540/625] Loss: 4.9607
+[Batch 560/625] Loss: 4.9572
+[Batch 580/625] Loss: 4.9534
+[Batch 600/625] Loss: 4.9532
+[Batch 620/625] Loss: 4.9516
+Epoch Time: 27.48s | Average Loss: 4.9515
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['', 'colors', 'material', '', 'one', 'low', 'white', 'as', 'poly', 'the']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [3/100]
+[Batch 20/625] Loss: 4.6667
+[Batch 40/625] Loss: 4.6414
+[Batch 60/625] Loss: 4.6088
+[Batch 80/625] Loss: 4.6144
+[Batch 100/625] Loss: 4.6120
+[Batch 120/625] Loss: 4.6349
+[Batch 140/625] Loss: 4.6386
+[Batch 160/625] Loss: 4.6389
+[Batch 180/625] Loss: 4.6365
+[Batch 200/625] Loss: 4.6335
+[Batch 220/625] Loss: 4.6364
+[Batch 240/625] Loss: 4.6300
+[Batch 260/625] Loss: 4.6246
+[Batch 280/625] Loss: 4.6233
+[Batch 300/625] Loss: 4.6208
+[Batch 320/625] Loss: 4.6198
+[Batch 340/625] Loss: 4.6225
+[Batch 360/625] Loss: 4.6239
+[Batch 380/625] Loss: 4.6237
+[Batch 400/625] Loss: 4.6211
+[Batch 420/625] Loss: 4.6165
+[Batch 440/625] Loss: 4.6148
+[Batch 460/625] Loss: 4.6162
+[Batch 480/625] Loss: 4.6158
+[Batch 500/625] Loss: 4.6162
+[Batch 520/625] Loss: 4.6140
+[Batch 540/625] Loss: 4.6129
+[Batch 560/625] Loss: 4.6144
+[Batch 580/625] Loss: 4.6111
+[Batch 600/625] Loss: 4.6081
+[Batch 620/625] Loss: 4.6071
+Epoch Time: 27.30s | Average Loss: 4.6057
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['', 'black', 'garden', 'colors', 'the', 'color', '', 'traditional', 'highway', '100']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [4/100]
+[Batch 20/625] Loss: 4.3058
+[Batch 40/625] Loss: 4.3151
+[Batch 60/625] Loss: 4.2976
+[Batch 80/625] Loss: 4.2863
+[Batch 100/625] Loss: 4.2886
+[Batch 120/625] Loss: 4.3047
+[Batch 140/625] Loss: 4.3021
+[Batch 160/625] Loss: 4.3044
+[Batch 180/625] Loss: 4.2991
+[Batch 200/625] Loss: 4.2903
+[Batch 220/625] Loss: 4.2951
+[Batch 240/625] Loss: 4.2924
+[Batch 260/625] Loss: 4.2897
+[Batch 280/625] Loss: 4.2877
+[Batch 300/625] Loss: 4.2843
+[Batch 320/625] Loss: 4.2829
+[Batch 340/625] Loss: 4.2849
+[Batch 360/625] Loss: 4.2849
+[Batch 380/625] Loss: 4.2826
+[Batch 400/625] Loss: 4.2797
+[Batch 420/625] Loss: 4.2764
+[Batch 440/625] Loss: 4.2777
+[Batch 460/625] Loss: 4.2765
+[Batch 480/625] Loss: 4.2779
+[Batch 500/625] Loss: 4.2767
+[Batch 520/625] Loss: 4.2750
+[Batch 540/625] Loss: 4.2764
+[Batch 560/625] Loss: 4.2769
+[Batch 580/625] Loss: 4.2770
+[Batch 600/625] Loss: 4.2762
+[Batch 620/625] Loss: 4.2740
+Epoch Time: 27.57s | Average Loss: 4.2736
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['colors', '', 'blue', 'color', 'garden', '', 'friend', 'very', '100', 'best']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [5/100]
+[Batch 20/625] Loss: 4.0321
+[Batch 40/625] Loss: 4.0616
+[Batch 60/625] Loss: 4.0680
+[Batch 80/625] Loss: 4.0594
+[Batch 100/625] Loss: 4.0516
+[Batch 120/625] Loss: 4.0481
+[Batch 140/625] Loss: 4.0477
+[Batch 160/625] Loss: 4.0458
+[Batch 180/625] Loss: 4.0439
+[Batch 200/625] Loss: 4.0427
+[Batch 220/625] Loss: 4.0444
+[Batch 240/625] Loss: 4.0489
+[Batch 260/625] Loss: 4.0448
+[Batch 280/625] Loss: 4.0458
+[Batch 300/625] Loss: 4.0490
+[Batch 320/625] Loss: 4.0484
+[Batch 340/625] Loss: 4.0540
+[Batch 360/625] Loss: 4.0484
+[Batch 380/625] Loss: 4.0509
+[Batch 400/625] Loss: 4.0504
+[Batch 420/625] Loss: 4.0524
+[Batch 440/625] Loss: 4.0514
+[Batch 460/625] Loss: 4.0499
+[Batch 480/625] Loss: 4.0483
+[Batch 500/625] Loss: 4.0522
+[Batch 520/625] Loss: 4.0528
+[Batch 540/625] Loss: 4.0513
+[Batch 560/625] Loss: 4.0570
+[Batch 580/625] Loss: 4.0572
+[Batch 600/625] Loss: 4.0554
+[Batch 620/625] Loss: 4.0564
+Epoch Time: 27.60s | Average Loss: 4.0577
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['friend', 'intended', 'colors', 'best', '', 'very', 'commercial', 'catalogue', 'highway', '100']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [6/100]
+[Batch 20/625] Loss: 3.8220
+[Batch 40/625] Loss: 3.8542
+[Batch 60/625] Loss: 3.8535
+[Batch 80/625] Loss: 3.8303
+[Batch 100/625] Loss: 3.8411
+[Batch 120/625] Loss: 3.8417
+[Batch 140/625] Loss: 3.8499
+[Batch 160/625] Loss: 3.8537
+[Batch 180/625] Loss: 3.8608
+[Batch 200/625] Loss: 3.8643
+[Batch 220/625] Loss: 3.8641
+[Batch 240/625] Loss: 3.8642
+[Batch 260/625] Loss: 3.8650
+[Batch 280/625] Loss: 3.8732
+[Batch 300/625] Loss: 3.8737
+[Batch 320/625] Loss: 3.8753
+[Batch 340/625] Loss: 3.8721
+[Batch 360/625] Loss: 3.8744
+[Batch 380/625] Loss: 3.8780
+[Batch 400/625] Loss: 3.8787
+[Batch 420/625] Loss: 3.8810
+[Batch 440/625] Loss: 3.8840
+[Batch 460/625] Loss: 3.8848
+[Batch 480/625] Loss: 3.8870
+[Batch 500/625] Loss: 3.8900
+[Batch 520/625] Loss: 3.8918
+[Batch 540/625] Loss: 3.8909
+[Batch 560/625] Loss: 3.8943
+[Batch 580/625] Loss: 3.8959
+[Batch 600/625] Loss: 3.8959
+[Batch 620/625] Loss: 3.8963
+Epoch Time: 27.76s | Average Loss: 3.8964
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['intended', 'catalogue', 'color', '', 'garden', 'blue', 'double', 'the', '100', 'golden']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [7/100]
+[Batch 20/625] Loss: 3.6545
+[Batch 40/625] Loss: 3.6166
+[Batch 60/625] Loss: 3.6279
+[Batch 80/625] Loss: 3.6430
+[Batch 100/625] Loss: 3.6644
+[Batch 120/625] Loss: 3.6740
+[Batch 140/625] Loss: 3.6712
+[Batch 160/625] Loss: 3.6791
+[Batch 180/625] Loss: 3.6760
+[Batch 200/625] Loss: 3.6794
+[Batch 220/625] Loss: 3.6889
+[Batch 240/625] Loss: 3.6928
+[Batch 260/625] Loss: 3.7004
+[Batch 280/625] Loss: 3.6991
+
+
+
+---------------------------------------------------------------------------------
+ACTAULLY 20TH EPOCH
+Epoch [1/100]
+[Batch 20/313] Loss: 2.7430
+[Batch 40/313] Loss: 2.7787
+[Batch 60/313] Loss: 2.7898
+[Batch 80/313] Loss: 2.7966
+[Batch 100/313] Loss: 2.8167
+[Batch 120/313] Loss: 2.8302
+[Batch 140/313] Loss: 2.8292
+[Batch 160/313] Loss: 2.8319
+[Batch 180/313] Loss: 2.8346
+[Batch 200/313] Loss: 2.8388
+[Batch 220/313] Loss: 2.8459
+[Batch 240/313] Loss: 2.8532
+[Batch 260/313] Loss: 2.8611
+[Batch 280/313] Loss: 2.8674
+[Batch 300/313] Loss: 2.8763
+Epoch Time: 22.59s | Average Loss: 2.8770
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'color', 'setting', 'once', 'evolved', 'red', 'search', 'darker', 'green', 'intended']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [2/100]
+[Batch 20/313] Loss: 2.7330
+[Batch 40/313] Loss: 2.7296
+[Batch 60/313] Loss: 2.7373
+[Batch 80/313] Loss: 2.7412
+[Batch 100/313] Loss: 2.7594
+[Batch 120/313] Loss: 2.7664
+[Batch 140/313] Loss: 2.7698
+[Batch 160/313] Loss: 2.7720
+[Batch 180/313] Loss: 2.7778
+[Batch 200/313] Loss: 2.7825
+[Batch 220/313] Loss: 2.7865
+[Batch 240/313] Loss: 2.7931
+[Batch 260/313] Loss: 2.8004
+[Batch 280/313] Loss: 2.8078
+[Batch 300/313] Loss: 2.8176
+Epoch Time: 23.15s | Average Loss: 2.8198
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'darker', 'once', 'color', 'setting', 'rent', 'good', 'red', 'precisely', 'books']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [3/100]
+[Batch 20/313] Loss: 2.7006
+[Batch 40/313] Loss: 2.6839
+[Batch 60/313] Loss: 2.6861
+[Batch 80/313] Loss: 2.6975
+[Batch 100/313] Loss: 2.7098
+[Batch 120/313] Loss: 2.7099
+[Batch 140/313] Loss: 2.7144
+[Batch 160/313] Loss: 2.7279
+[Batch 180/313] Loss: 2.7305
+[Batch 200/313] Loss: 2.7340
+[Batch 220/313] Loss: 2.7426
+[Batch 240/313] Loss: 2.7497
+[Batch 260/313] Loss: 2.7549
+[Batch 280/313] Loss: 2.7608
+[Batch 300/313] Loss: 2.7661
+Epoch Time: 22.84s | Average Loss: 2.7667
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'Light', 'once', 'red', 'color', 'catalogue', 'stores', 'darker', 'good', 'books']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [4/100]
+[Batch 20/313] Loss: 2.6130
+[Batch 40/313] Loss: 2.6409
+[Batch 60/313] Loss: 2.6527
+[Batch 80/313] Loss: 2.6486
+[Batch 100/313] Loss: 2.6506
+[Batch 120/313] Loss: 2.6572
+[Batch 140/313] Loss: 2.6709
+[Batch 160/313] Loss: 2.6756
+[Batch 180/313] Loss: 2.6805
+[Batch 200/313] Loss: 2.6815
+[Batch 220/313] Loss: 2.6832
+[Batch 240/313] Loss: 2.6892
+[Batch 260/313] Loss: 2.6940
+[Batch 280/313] Loss: 2.6994
+[Batch 300/313] Loss: 2.7066
+Epoch Time: 22.77s | Average Loss: 2.7102
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'color', 'once', 'red', 'good', 'darker', 'books', 'rent', '', 'very']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [5/100]
+[Batch 20/313] Loss: 2.5229
+[Batch 40/313] Loss: 2.5376
+[Batch 60/313] Loss: 2.5476
+[Batch 80/313] Loss: 2.5637
+[Batch 100/313] Loss: 2.5791
+[Batch 120/313] Loss: 2.5872
+[Batch 140/313] Loss: 2.5941
+[Batch 160/313] Loss: 2.6060
+[Batch 180/313] Loss: 2.6158
+[Batch 200/313] Loss: 2.6236
+[Batch 220/313] Loss: 2.6318
+[Batch 240/313] Loss: 2.6393
+[Batch 260/313] Loss: 2.6466
+[Batch 280/313] Loss: 2.6518
+[Batch 300/313] Loss: 2.6567
+Epoch Time: 22.66s | Average Loss: 2.6597
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'color', 'darker', 'books', 'red', 'once', 'rent', 'stores', '', 'Light']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [6/100]
+[Batch 20/313] Loss: 2.5364
+[Batch 40/313] Loss: 2.5210
+[Batch 60/313] Loss: 2.5310
+[Batch 80/313] Loss: 2.5403
+[Batch 100/313] Loss: 2.5450
+[Batch 120/313] Loss: 2.5556
+[Batch 140/313] Loss: 2.5610
+[Batch 160/313] Loss: 2.5639
+[Batch 180/313] Loss: 2.5726
+[Batch 200/313] Loss: 2.5764
+[Batch 220/313] Loss: 2.5824
+[Batch 240/313] Loss: 2.5882
+[Batch 260/313] Loss: 2.5915
+[Batch 280/313] Loss: 2.5985
+[Batch 300/313] Loss: 2.6045
+Epoch Time: 22.75s | Average Loss: 2.6088
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'books', 'color', 'search', '', '', 'very', 'pic', '1', 'once']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [7/100]
+[Batch 20/313] Loss: 2.4728
+[Batch 40/313] Loss: 2.4948
+[Batch 60/313] Loss: 2.4842
+[Batch 80/313] Loss: 2.4880
+[Batch 100/313] Loss: 2.4967
+[Batch 120/313] Loss: 2.5010
+[Batch 140/313] Loss: 2.5035
+[Batch 160/313] Loss: 2.5103
+[Batch 180/313] Loss: 2.5155
+[Batch 200/313] Loss: 2.5204
+[Batch 220/313] Loss: 2.5240
+[Batch 240/313] Loss: 2.5262
+[Batch 260/313] Loss: 2.5286
+[Batch 280/313] Loss: 2.5317
+[Batch 300/313] Loss: 2.5297
+Epoch Time: 22.82s | Average Loss: 2.5329
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'books', 'rent', 'once', 'color', 'darker', '', 'very', 'good', '']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [8/100]
+[Batch 20/313] Loss: 2.3488
+[Batch 40/313] Loss: 2.3582
+[Batch 60/313] Loss: 2.3671
+[Batch 80/313] Loss: 2.3835
+[Batch 100/313] Loss: 2.3941
+[Batch 120/313] Loss: 2.4051
+[Batch 140/313] Loss: 2.4092
+[Batch 160/313] Loss: 2.4105
+[Batch 180/313] Loss: 2.4149
+[Batch 200/313] Loss: 2.4188
+[Batch 220/313] Loss: 2.4202
+[Batch 240/313] Loss: 2.4229
+[Batch 260/313] Loss: 2.4260
+[Batch 280/313] Loss: 2.4302
+[Batch 300/313] Loss: 2.4376
+Epoch Time: 22.86s | Average Loss: 2.4404
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'books', 'once', 'good', 'color', 'search', '', 'red', 'darker', 'like']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [9/100]
+[Batch 20/313] Loss: 2.3498
+[Batch 40/313] Loss: 2.3476
+[Batch 60/313] Loss: 2.3570
+[Batch 80/313] Loss: 2.3625
+[Batch 100/313] Loss: 2.3648
+[Batch 120/313] Loss: 2.3723
+[Batch 140/313] Loss: 2.3764
+[Batch 160/313] Loss: 2.3795
+[Batch 180/313] Loss: 2.3844
+[Batch 200/313] Loss: 2.3920
+[Batch 220/313] Loss: 2.3964
+[Batch 240/313] Loss: 2.3972
+[Batch 260/313] Loss: 2.4052
+[Batch 280/313] Loss: 2.4096
+[Batch 300/313] Loss: 2.4156
+Epoch Time: 23.09s | Average Loss: 2.4198
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'books', 'color', '', 'once', 'darker', 'very', 'catalogue', 'evolved', 'good']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [10/100]
+[Batch 20/313] Loss: 2.3150
+[Batch 40/313] Loss: 2.3563
+[Batch 60/313] Loss: 2.3575
+[Batch 80/313] Loss: 2.3664
+[Batch 100/313] Loss: 2.3677
+[Batch 120/313] Loss: 2.3668
+[Batch 140/313] Loss: 2.3689
+[Batch 160/313] Loss: 2.3693
+[Batch 180/313] Loss: 2.3742
+[Batch 200/313] Loss: 2.3814
+[Batch 220/313] Loss: 2.3859
+[Batch 240/313] Loss: 2.3881
+[Batch 260/313] Loss: 2.3898
+[Batch 280/313] Loss: 2.3915
+[Batch 300/313] Loss: 2.3963
+Epoch Time: 22.70s | Average Loss: 2.3984
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'color', '', 'books', 'once', 'storage', '', 'search', '5', 'very']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [11/100]
+[Batch 20/313] Loss: 2.2737
+[Batch 40/313] Loss: 2.2868
+[Batch 60/313] Loss: 2.2988
+[Batch 80/313] Loss: 2.3100
+[Batch 100/313] Loss: 2.3258
+[Batch 120/313] Loss: 2.3319
+[Batch 140/313] Loss: 2.3405
+[Batch 160/313] Loss: 2.3379
+[Batch 180/313] Loss: 2.3449
+[Batch 200/313] Loss: 2.3500
+[Batch 220/313] Loss: 2.3572
+[Batch 240/313] Loss: 2.3615
+[Batch 260/313] Loss: 2.3650
+[Batch 280/313] Loss: 2.3681
+[Batch 300/313] Loss: 2.3714
+Epoch Time: 22.75s | Average Loss: 2.3735
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'very', 'like', 'once', '', 'evolved', 'search', 'red', 'color', 'storage']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [12/100]
+[Batch 20/313] Loss: 2.2602
+[Batch 40/313] Loss: 2.2904
+[Batch 60/313] Loss: 2.2875
+[Batch 80/313] Loss: 2.2916
+[Batch 100/313] Loss: 2.3004
+[Batch 120/313] Loss: 2.2976
+[Batch 140/313] Loss: 2.3005
+[Batch 160/313] Loss: 2.3139
+[Batch 180/313] Loss: 2.3188
+[Batch 200/313] Loss: 2.3260
+[Batch 220/313] Loss: 2.3325
+[Batch 240/313] Loss: 2.3410
+[Batch 260/313] Loss: 2.3452
+[Batch 280/313] Loss: 2.3463
+[Batch 300/313] Loss: 2.3523
+Epoch Time: 22.76s | Average Loss: 2.3560
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'color', 'once', '', 'books', '', 'very', 'darker', 'red', 'like']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [13/100]
+[Batch 20/313] Loss: 2.2042
+[Batch 40/313] Loss: 2.2232
+[Batch 60/313] Loss: 2.2499
+[Batch 80/313] Loss: 2.2609
+[Batch 100/313] Loss: 2.2786
+[Batch 120/313] Loss: 2.2880
+[Batch 140/313] Loss: 2.2972
+[Batch 160/313] Loss: 2.3007
+[Batch 180/313] Loss: 2.3055
+[Batch 200/313] Loss: 2.3094
+[Batch 220/313] Loss: 2.3174
+[Batch 240/313] Loss: 2.3234
+[Batch 260/313] Loss: 2.3242
+[Batch 280/313] Loss: 2.3303
+[Batch 300/313] Loss: 2.3331
+Epoch Time: 23.07s | Average Loss: 2.3338
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', '', 'very', '', 'once', 'books', 'like', 'color', '5', 'red']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [14/100]
+[Batch 20/313] Loss: 2.2063
+[Batch 40/313] Loss: 2.2007
+[Batch 60/313] Loss: 2.2024
+[Batch 80/313] Loss: 2.2058
+[Batch 100/313] Loss: 2.2169
+[Batch 120/313] Loss: 2.2213
+[Batch 140/313] Loss: 2.2254
+[Batch 160/313] Loss: 2.2244
+[Batch 180/313] Loss: 2.2282
+[Batch 200/313] Loss: 2.2320
+[Batch 220/313] Loss: 2.2345
+[Batch 240/313] Loss: 2.2384
+[Batch 260/313] Loss: 2.2413
+[Batch 280/313] Loss: 2.2477
+[Batch 300/313] Loss: 2.2530
+Epoch Time: 22.65s | Average Loss: 2.2544
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', '', 'books', 'like', 'very', '', '5', 'red', 'once', '1']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [15/100]
+[Batch 20/313] Loss: 2.1797
+[Batch 40/313] Loss: 2.1861
+[Batch 60/313] Loss: 2.1797
+[Batch 80/313] Loss: 2.1841
+[Batch 100/313] Loss: 2.1945
+[Batch 120/313] Loss: 2.2058
+[Batch 140/313] Loss: 2.2124
+[Batch 160/313] Loss: 2.2199
+[Batch 180/313] Loss: 2.2238
+[Batch 200/313] Loss: 2.2266
+[Batch 220/313] Loss: 2.2278
+[Batch 240/313] Loss: 2.2289
+[Batch 260/313] Loss: 2.2310
+[Batch 280/313] Loss: 2.2342
+[Batch 300/313] Loss: 2.2352
+Epoch Time: 22.78s | Average Loss: 2.2372
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', '', 'books', '', 'like', 'very', '5', 'red', 'once', 'color']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [16/100]
+[Batch 20/313] Loss: 2.1753
+[Batch 40/313] Loss: 2.1841
+[Batch 60/313] Loss: 2.1929
+[Batch 80/313] Loss: 2.1946
+[Batch 100/313] Loss: 2.1986
+[Batch 120/313] Loss: 2.2036
+[Batch 140/313] Loss: 2.2068
+[Batch 160/313] Loss: 2.2117
+[Batch 180/313] Loss: 2.2136
+[Batch 200/313] Loss: 2.2153
+[Batch 220/313] Loss: 2.2189
+[Batch 240/313] Loss: 2.2207
+[Batch 260/313] Loss: 2.2228
+[Batch 280/313] Loss: 2.2259
+[Batch 300/313] Loss: 2.2279
+Epoch Time: 22.82s | Average Loss: 2.2320
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'books', 'once', 'Iceland', '', 'red', '5', 'like', '', 'darker']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [17/100]
+[Batch 20/313] Loss: 2.1504
+[Batch 40/313] Loss: 2.1377
+[Batch 60/313] Loss: 2.1642
+[Batch 80/313] Loss: 2.1716
+[Batch 100/313] Loss: 2.1820
+[Batch 120/313] Loss: 2.1862
+[Batch 140/313] Loss: 2.1881
+[Batch 160/313] Loss: 2.1944
+[Batch 180/313] Loss: 2.1972
+[Batch 200/313] Loss: 2.1970
+[Batch 220/313] Loss: 2.2004
+[Batch 240/313] Loss: 2.2042
+[Batch 260/313] Loss: 2.2093
+[Batch 280/313] Loss: 2.2135
+[Batch 300/313] Loss: 2.2152
+Epoch Time: 23.07s | Average Loss: 2.2189
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'red', 'like', 'very', 'evolved', '', 'books', 'storage', 'once', '5']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [18/100]
+[Batch 20/313] Loss: 2.1403
+[Batch 40/313] Loss: 2.1494
+[Batch 60/313] Loss: 2.1495
+[Batch 80/313] Loss: 2.1617
+[Batch 100/313] Loss: 2.1658
+[Batch 120/313] Loss: 2.1721
+[Batch 140/313] Loss: 2.1761
+[Batch 160/313] Loss: 2.1813
+[Batch 180/313] Loss: 2.1890
+[Batch 200/313] Loss: 2.1928
+[Batch 220/313] Loss: 2.1940
+[Batch 240/313] Loss: 2.1956
+[Batch 260/313] Loss: 2.2016
+[Batch 280/313] Loss: 2.2046
+[Batch 300/313] Loss: 2.2057
+Epoch Time: 22.74s | Average Loss: 2.2072
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'like', '', 'very', 'books', '5', 'red', 'once', '', 'evolved']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [19/100]
+[Batch 20/313] Loss: 2.1435
+[Batch 40/313] Loss: 2.1365
+[Batch 60/313] Loss: 2.1457
+[Batch 80/313] Loss: 2.1390
+[Batch 100/313] Loss: 2.1418
+[Batch 120/313] Loss: 2.1525
+[Batch 140/313] Loss: 2.1544
+[Batch 160/313] Loss: 2.1608
+[Batch 180/313] Loss: 2.1673
+[Batch 200/313] Loss: 2.1695
+[Batch 220/313] Loss: 2.1735
+[Batch 240/313] Loss: 2.1798
+[Batch 260/313] Loss: 2.1832
+[Batch 280/313] Loss: 2.1883
+[Batch 300/313] Loss: 2.1942
+Epoch Time: 22.83s | Average Loss: 2.1967
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'bedrooms', 'red', '', 'once', 'books', '5', 'very', '', 'the']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [20/100]
+[Batch 20/313] Loss: 2.1118
+[Batch 40/313] Loss: 2.1421
+[Batch 60/313] Loss: 2.1228
+[Batch 80/313] Loss: 2.1382
+[Batch 100/313] Loss: 2.1380
+[Batch 120/313] Loss: 2.1454
+[Batch 140/313] Loss: 2.1547
+[Batch 160/313] Loss: 2.1620
+[Batch 180/313] Loss: 2.1650
+[Batch 200/313] Loss: 2.1655
+[Batch 220/313] Loss: 2.1709
+[Batch 240/313] Loss: 2.1722
+[Batch 260/313] Loss: 2.1776
+[Batch 280/313] Loss: 2.1811
+[Batch 300/313] Loss: 2.1837
+Epoch Time: 22.75s | Average Loss: 2.1852
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'like', 'once', 'very', '', 'evolved', 'books', 'the', 'red', '5']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [21/100]
+[Batch 20/313] Loss: 2.1141
+[Batch 40/313] Loss: 2.1244
+[Batch 60/313] Loss: 2.1278
+[Batch 80/313] Loss: 2.1250
+[Batch 100/313] Loss: 2.1345
+[Batch 120/313] Loss: 2.1444
+[Batch 140/313] Loss: 2.1437
+[Batch 160/313] Loss: 2.1482
+[Batch 180/313] Loss: 2.1511
+[Batch 200/313] Loss: 2.1537
+[Batch 220/313] Loss: 2.1566
+[Batch 240/313] Loss: 2.1634
+[Batch 260/313] Loss: 2.1682
+[Batch 280/313] Loss: 2.1746
+[Batch 300/313] Loss: 2.1793
+Epoch Time: 23.19s | Average Loss: 2.1799
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'like', '', 'red', 'once', 'evolved', 'books', '5', 'very', 'the']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [22/100]
+[Batch 20/313] Loss: 2.0671
+[Batch 40/313] Loss: 2.0940
+[Batch 60/313] Loss: 2.1083
+[Batch 80/313] Loss: 2.1130
+[Batch 100/313] Loss: 2.1319
+[Batch 120/313] Loss: 2.1406
+[Batch 140/313] Loss: 2.1427
+[Batch 160/313] Loss: 2.1472
+[Batch 180/313] Loss: 2.1502
+[Batch 200/313] Loss: 2.1543
+[Batch 220/313] Loss: 2.1569
+[Batch 240/313] Loss: 2.1579
+[Batch 260/313] Loss: 2.1591
+[Batch 280/313] Loss: 2.1626
+[Batch 300/313] Loss: 2.1651
+Epoch Time: 22.70s | Average Loss: 2.1681
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'like', 'evolved', 'rent', 'very', 'red', '', '5', 'storage', 'once']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [23/100]
+[Batch 20/313] Loss: 2.0982
+[Batch 40/313] Loss: 2.1055
+[Batch 60/313] Loss: 2.1135
+[Batch 80/313] Loss: 2.1111
+[Batch 100/313] Loss: 2.1137
+[Batch 120/313] Loss: 2.1183
+[Batch 140/313] Loss: 2.1251
+[Batch 160/313] Loss: 2.1266
+[Batch 180/313] Loss: 2.1311
+[Batch 200/313] Loss: 2.1326
+[Batch 220/313] Loss: 2.1384
+[Batch 240/313] Loss: 2.1417
+[Batch 260/313] Loss: 2.1451
+[Batch 280/313] Loss: 2.1458
+[Batch 300/313] Loss: 2.1501
+Epoch Time: 22.79s | Average Loss: 2.1545
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', '', 'books', 'like', 'evolved', 'red', 'the', 'very', '1', 'darker']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [24/100]
+[Batch 20/313] Loss: 2.0698
+[Batch 40/313] Loss: 2.0710
+[Batch 60/313] Loss: 2.0904
+[Batch 80/313] Loss: 2.0894
+[Batch 100/313] Loss: 2.0914
+[Batch 120/313] Loss: 2.0964
+[Batch 140/313] Loss: 2.1046
+[Batch 160/313] Loss: 2.1076
+[Batch 180/313] Loss: 2.1132
+[Batch 200/313] Loss: 2.1174
+[Batch 220/313] Loss: 2.1244
+[Batch 240/313] Loss: 2.1292
+[Batch 260/313] Loss: 2.1344
+[Batch 280/313] Loss: 2.1380
+[Batch 300/313] Loss: 2.1407
+Epoch Time: 22.76s | Average Loss: 2.1452
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'books', '', 'evolved', 'bedrooms', 'once', 'very', 'the', '5', 'red']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [25/100]
+[Batch 20/313] Loss: 2.0479
+[Batch 40/313] Loss: 2.0666
+[Batch 60/313] Loss: 2.0813
+[Batch 80/313] Loss: 2.0839
+[Batch 100/313] Loss: 2.0931
+[Batch 120/313] Loss: 2.0932
+[Batch 140/313] Loss: 2.1008
+[Batch 160/313] Loss: 2.1096
+[Batch 180/313] Loss: 2.1138
+[Batch 200/313] Loss: 2.1200
+[Batch 220/313] Loss: 2.1192
+[Batch 240/313] Loss: 2.1220
+[Batch 260/313] Loss: 2.1253
+[Batch 280/313] Loss: 2.1288
+[Batch 300/313] Loss: 2.1331
+Epoch Time: 23.09s | Average Loss: 2.1353
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'books', 'like', '', 'evolved', 'rent', 'once', '1', 'the', '']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [26/100]
+[Batch 20/313] Loss: 2.0222
+[Batch 40/313] Loss: 2.0573
+[Batch 60/313] Loss: 2.0584
+[Batch 80/313] Loss: 2.0623
+[Batch 100/313] Loss: 2.0752
+[Batch 120/313] Loss: 2.0790
+[Batch 140/313] Loss: 2.0863
+[Batch 160/313] Loss: 2.0975
+[Batch 180/313] Loss: 2.1010
+[Batch 200/313] Loss: 2.1028
+[Batch 220/313] Loss: 2.1081
+[Batch 240/313] Loss: 2.1104
+[Batch 260/313] Loss: 2.1157
+[Batch 280/313] Loss: 2.1181
+[Batch 300/313] Loss: 2.1223
+Epoch Time: 22.81s | Average Loss: 2.1236
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'books', 'once', 'red', 'evolved', 'like', '', 'the', 'very', '5']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [27/100]
+[Batch 20/313] Loss: 2.0286
+[Batch 40/313] Loss: 2.0449
+[Batch 60/313] Loss: 2.0613
+[Batch 80/313] Loss: 2.0623
+[Batch 100/313] Loss: 2.0716
+[Batch 120/313] Loss: 2.0782
+[Batch 140/313] Loss: 2.0837
+[Batch 160/313] Loss: 2.0825
+[Batch 180/313] Loss: 2.0872
+[Batch 200/313] Loss: 2.0882
+[Batch 220/313] Loss: 2.0920
+[Batch 240/313] Loss: 2.0972
+[Batch 260/313] Loss: 2.1015
+[Batch 280/313] Loss: 2.1070
+[Batch 300/313] Loss: 2.1111
+Epoch Time: 22.79s | Average Loss: 2.1131
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'books', '', '5', 'red', 'once', 'like', '', 'accessible', 'the']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [28/100]
+[Batch 20/313] Loss: 2.0179
+[Batch 40/313] Loss: 2.0250
+[Batch 60/313] Loss: 2.0419
+[Batch 80/313] Loss: 2.0440
+[Batch 100/313] Loss: 2.0465
+[Batch 120/313] Loss: 2.0503
+[Batch 140/313] Loss: 2.0603
+[Batch 160/313] Loss: 2.0680
+[Batch 180/313] Loss: 2.0772
+[Batch 200/313] Loss: 2.0812
+[Batch 220/313] Loss: 2.0878
+[Batch 240/313] Loss: 2.0912
+[Batch 260/313] Loss: 2.0938
+[Batch 280/313] Loss: 2.0990
+[Batch 300/313] Loss: 2.1017
+Epoch Time: 23.04s | Average Loss: 2.1036
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['books', 'bedrooms', 'like', 'very', '', 'evolved', 'rent', 'the', '', 'All']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [29/100]
+[Batch 20/313] Loss: 2.0119
+[Batch 40/313] Loss: 2.0457
+[Batch 60/313] Loss: 2.0368
+[Batch 80/313] Loss: 2.0446
+[Batch 100/313] Loss: 2.0525
+[Batch 120/313] Loss: 2.0643
+[Batch 140/313] Loss: 2.0738
+[Batch 160/313] Loss: 2.0820
+[Batch 180/313] Loss: 2.0937
+[Batch 200/313] Loss: 2.1067
+[Batch 220/313] Loss: 2.1115
+[Batch 240/313] Loss: 2.1192
+[Batch 260/313] Loss: 2.1271
+[Batch 280/313] Loss: 2.1361
+[Batch 300/313] Loss: 2.1464
+Epoch Time: 22.84s | Average Loss: 2.1479
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'books', 'the', '', 'very', '', '5', 'rent', 'like', 'darker']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [30/100]
+[Batch 20/313] Loss: 2.0572
+[Batch 40/313] Loss: 2.0649
+[Batch 60/313] Loss: 2.0918
+[Batch 80/313] Loss: 2.0992
+[Batch 100/313] Loss: 2.1157
+[Batch 120/313] Loss: 2.1152
+[Batch 140/313] Loss: 2.1212
+[Batch 160/313] Loss: 2.1273
+[Batch 180/313] Loss: 2.1307
+[Batch 200/313] Loss: 2.1367
+[Batch 220/313] Loss: 2.1398
+[Batch 240/313] Loss: 2.1501
+[Batch 260/313] Loss: 2.1530
+[Batch 280/313] Loss: 2.1580
+[Batch 300/313] Loss: 2.1629
+Epoch Time: 22.84s | Average Loss: 2.1653
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'evolved', '', 'books', 'very', 'like', 'the', '', 'All', 'storage']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [31/100]
+[Batch 20/313] Loss: 2.0229
+[Batch 40/313] Loss: 2.0641
+[Batch 60/313] Loss: 2.0886
+[Batch 80/313] Loss: 2.1126
+[Batch 100/313] Loss: 2.1392
+[Batch 120/313] Loss: 2.1561
+[Batch 140/313] Loss: 2.1715
+[Batch 160/313] Loss: 2.1857
+[Batch 180/313] Loss: 2.1947
+[Batch 200/313] Loss: 2.2046
+[Batch 220/313] Loss: 2.2185
+[Batch 240/313] Loss: 2.2277
+[Batch 260/313] Loss: 2.2391
+[Batch 280/313] Loss: 2.2486
+[Batch 300/313] Loss: 2.2571
+Epoch Time: 22.77s | Average Loss: 2.2609
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'books', 'All', 'the', 'like', 'ery', 'evolved', '', '', 'picture']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [32/100]
+[Batch 20/313] Loss: 2.0655
+[Batch 40/313] Loss: 2.0905
+[Batch 60/313] Loss: 2.1141
+[Batch 80/313] Loss: 2.1240
+[Batch 100/313] Loss: 2.1341
+[Batch 120/313] Loss: 2.1484
+[Batch 140/313] Loss: 2.1580
+[Batch 160/313] Loss: 2.1721
+[Batch 180/313] Loss: 2.1821
+[Batch 200/313] Loss: 2.1874
+[Batch 220/313] Loss: 2.1984
+[Batch 240/313] Loss: 2.2073
+[Batch 260/313] Loss: 2.2152
+[Batch 280/313] Loss: 2.2187
+[Batch 300/313] Loss: 2.2267
+Epoch Time: 23.12s | Average Loss: 2.2298
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['books', 'bedrooms', 'like', 'red', 'once', 'evolved', 'All', '', 'very', '']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [33/100]
+[Batch 20/313] Loss: 2.0634
+[Batch 40/313] Loss: 2.0545
+[Batch 60/313] Loss: 2.0734
+[Batch 80/313] Loss: 2.0885
+[Batch 100/313] Loss: 2.1004
+[Batch 120/313] Loss: 2.1059
+[Batch 140/313] Loss: 2.1105
+[Batch 160/313] Loss: 2.1257
+[Batch 180/313] Loss: 2.1373
+[Batch 200/313] Loss: 2.1481
+[Batch 220/313] Loss: 2.1554
+[Batch 240/313] Loss: 2.1622
+[Batch 260/313] Loss: 2.1684
+[Batch 280/313] Loss: 2.1733
+[Batch 300/313] Loss: 2.1789
+Epoch Time: 22.80s | Average Loss: 2.1832
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['books', 'red', 'bedrooms', 'darker', 'earth', '', 'once', 'the', 'like', '']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [34/100]
+[Batch 20/313] Loss: 1.9813
+[Batch 40/313] Loss: 2.0197
+[Batch 60/313] Loss: 2.0418
+[Batch 80/313] Loss: 2.0515
+[Batch 100/313] Loss: 2.0731
+[Batch 120/313] Loss: 2.0823
+[Batch 140/313] Loss: 2.0928
+[Batch 160/313] Loss: 2.1051
+[Batch 180/313] Loss: 2.1115
+[Batch 200/313] Loss: 2.1177
+[Batch 220/313] Loss: 2.1232
+[Batch 240/313] Loss: 2.1307
+[Batch 260/313] Loss: 2.1351
+[Batch 280/313] Loss: 2.1405
+[Batch 300/313] Loss: 2.1442
+Epoch Time: 22.79s | Average Loss: 2.1476
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', '', 'red', '', 'like', 'books', 'earth', 'the', 'accessible', 'darker']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [35/100]
+[Batch 20/313] Loss: 1.9644
+[Batch 40/313] Loss: 1.9816
+[Batch 60/313] Loss: 2.0074
+[Batch 80/313] Loss: 2.0146
+[Batch 100/313] Loss: 2.0233
+[Batch 120/313] Loss: 2.0371
+[Batch 140/313] Loss: 2.0489
+[Batch 160/313] Loss: 2.0605
+[Batch 180/313] Loss: 2.0705
+[Batch 200/313] Loss: 2.0813
+[Batch 220/313] Loss: 2.0905
+[Batch 240/313] Loss: 2.0967
+[Batch 260/313] Loss: 2.1032
+[Batch 280/313] Loss: 2.1080
+[Batch 300/313] Loss: 2.1138
+Epoch Time: 22.88s | Average Loss: 2.1171
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['earth', 'red', 'bedrooms', 'the', '', '', 'evolved', 'like', 'very', 'created']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [36/100]
+[Batch 20/313] Loss: 1.9309
+[Batch 40/313] Loss: 1.9733
+[Batch 60/313] Loss: 1.9776
+[Batch 80/313] Loss: 1.9929
+[Batch 100/313] Loss: 2.0046
+[Batch 120/313] Loss: 2.0149
+[Batch 140/313] Loss: 2.0255
+[Batch 160/313] Loss: 2.0315
+[Batch 180/313] Loss: 2.0405
+[Batch 200/313] Loss: 2.0499
+[Batch 220/313] Loss: 2.0572
+[Batch 240/313] Loss: 2.0634
+[Batch 260/313] Loss: 2.0693
+[Batch 280/313] Loss: 2.0766
+[Batch 300/313] Loss: 2.0815
+Epoch Time: 23.13s | Average Loss: 2.0847
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['bedrooms', 'like', 'books', 'red', 'earth', 'the', 'darker', '', 'very', 'fully']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [37/100]
+[Batch 20/313] Loss: 1.9514
+[Batch 40/313] Loss: 1.9551
+[Batch 60/313] Loss: 1.9654
+[Batch 80/313] Loss: 1.9754
+[Batch 100/313] Loss: 1.9815
+[Batch 120/313] Loss: 1.9945
+[Batch 140/313] Loss: 2.0033
+[Batch 160/313] Loss: 2.0122
+[Batch 180/313] Loss: 2.0152
+[Batch 200/313] Loss: 2.0210
+[Batch 220/313] Loss: 2.0251
+[Batch 240/313] Loss: 2.0264
+[Batch 260/313] Loss: 2.0272
+[Batch 280/313] Loss: 2.0297
+[Batch 300/313] Loss: 2.0302
+Epoch Time: 22.61s | Average Loss: 2.0315
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['red', 'earth', '', 'books', 'like', 'evolved', 'darker', '', 'bedrooms', 'the']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [38/100]
+[Batch 20/313] Loss: 1.8652
+[Batch 40/313] Loss: 1.8685
+[Batch 60/313] Loss: 1.8644
+[Batch 80/313] Loss: 1.8645
+[Batch 100/313] Loss: 1.8725
+[Batch 120/313] Loss: 1.8819
+[Batch 140/313] Loss: 1.8897
+[Batch 160/313] Loss: 1.8971
+[Batch 180/313] Loss: 1.9016
+[Batch 200/313] Loss: 1.9078
+[Batch 220/313] Loss: 1.9157
+[Batch 240/313] Loss: 1.9194
+[Batch 260/313] Loss: 1.9244
+[Batch 280/313] Loss: 1.9300
+[Batch 300/313] Loss: 1.9335
+Epoch Time: 22.72s | Average Loss: 1.9364
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'red', '', 'books', 'earth', 'pic', '', 'once', 'very', 'bedrooms']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [39/100]
+[Batch 20/313] Loss: 1.8125
+[Batch 40/313] Loss: 1.8327
+[Batch 60/313] Loss: 1.8246
+[Batch 80/313] Loss: 1.8381
+[Batch 100/313] Loss: 1.8513
+[Batch 120/313] Loss: 1.8616
+[Batch 140/313] Loss: 1.8752
+[Batch 160/313] Loss: 1.8804
+[Batch 180/313] Loss: 1.8889
+[Batch 200/313] Loss: 1.8912
+[Batch 220/313] Loss: 1.8947
+[Batch 240/313] Loss: 1.9000
+[Batch 260/313] Loss: 1.9055
+[Batch 280/313] Loss: 1.9130
+[Batch 300/313] Loss: 1.9182
+Epoch Time: 22.71s | Average Loss: 1.9209
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['evolved', 'like', 'red', 'Iceland', 'books', 'pic', 'earth', 'darker', '', 'country']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [40/100]
+[Batch 20/313] Loss: 1.8184
+[Batch 40/313] Loss: 1.8230
+[Batch 60/313] Loss: 1.8375
+[Batch 80/313] Loss: 1.8505
+[Batch 100/313] Loss: 1.8563
+[Batch 120/313] Loss: 1.8625
+[Batch 140/313] Loss: 1.8712
+[Batch 160/313] Loss: 1.8769
+[Batch 180/313] Loss: 1.8791
+[Batch 200/313] Loss: 1.8851
+[Batch 220/313] Loss: 1.8900
+[Batch 240/313] Loss: 1.8959
+[Batch 260/313] Loss: 1.9013
+[Batch 280/313] Loss: 1.9065
+[Batch 300/313] Loss: 1.9116
+Epoch Time: 23.09s | Average Loss: 1.9133
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['earth', 'evolved', '', 'books', '', 'bedrooms', 'Iceland', 'red', 'differ', 'the']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [41/100]
+[Batch 20/313] Loss: 1.8163
+[Batch 40/313] Loss: 1.8142
+[Batch 60/313] Loss: 1.8323
+[Batch 80/313] Loss: 1.8439
+[Batch 100/313] Loss: 1.8491
+[Batch 120/313] Loss: 1.8563
+[Batch 140/313] Loss: 1.8615
+[Batch 160/313] Loss: 1.8667
+[Batch 180/313] Loss: 1.8701
+[Batch 200/313] Loss: 1.8760
+[Batch 220/313] Loss: 1.8809
+[Batch 240/313] Loss: 1.8870
+[Batch 260/313] Loss: 1.8930
+[Batch 280/313] Loss: 1.8968
+[Batch 300/313] Loss: 1.9015
+Epoch Time: 22.84s | Average Loss: 1.9033
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['books', 'like', 'red', '', 'very', 'evolved', 'Iceland', 'bedrooms', '', 'darker']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [42/100]
+[Batch 20/313] Loss: 1.7999
+[Batch 40/313] Loss: 1.8187
+[Batch 60/313] Loss: 1.8227
+[Batch 80/313] Loss: 1.8324
+[Batch 100/313] Loss: 1.8406
+[Batch 120/313] Loss: 1.8524
+[Batch 140/313] Loss: 1.8598
+[Batch 160/313] Loss: 1.8651
+[Batch 180/313] Loss: 1.8707
+[Batch 200/313] Loss: 1.8737
+[Batch 220/313] Loss: 1.8791
+[Batch 240/313] Loss: 1.8849
+[Batch 260/313] Loss: 1.8861
+[Batch 280/313] Loss: 1.8903
+[Batch 300/313] Loss: 1.8961
+Epoch Time: 22.93s | Average Loss: 1.8996
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['books', 'bedrooms', 'red', '', 'darker', '', 'differ', 'earth', 'like', 'once']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [43/100]
+[Batch 20/313] Loss: 1.7864
+[Batch 40/313] Loss: 1.7946
+[Batch 60/313] Loss: 1.8080
+[Batch 80/313] Loss: 1.8234
+[Batch 100/313] Loss: 1.8284
+[Batch 120/313] Loss: 1.8350
+[Batch 140/313] Loss: 1.8466
+[Batch 160/313] Loss: 1.8496
+[Batch 180/313] Loss: 1.8572
+[Batch 200/313] Loss: 1.8636
+[Batch 220/313] Loss: 1.8655
+[Batch 240/313] Loss: 1.8742
+[Batch 260/313] Loss: 1.8771
+[Batch 280/313] Loss: 1.8813
+[Batch 300/313] Loss: 1.8850
+Epoch Time: 22.76s | Average Loss: 1.8861
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'earth', 'bedrooms', '', 'evolved', 'Iceland', 'red', '', 'very', 'pic']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [44/100]
+[Batch 20/313] Loss: 1.7568
+[Batch 40/313] Loss: 1.7746
+[Batch 60/313] Loss: 1.7631
+[Batch 80/313] Loss: 1.7735
+[Batch 100/313] Loss: 1.7686
+[Batch 120/313] Loss: 1.7768
+[Batch 140/313] Loss: 1.7760
+[Batch 160/313] Loss: 1.7874
+[Batch 180/313] Loss: 1.7943
+[Batch 200/313] Loss: 1.7966
+[Batch 220/313] Loss: 1.8015
+[Batch 240/313] Loss: 1.8020
+[Batch 260/313] Loss: 1.8041
+[Batch 280/313] Loss: 1.8069
+[Batch 300/313] Loss: 1.8097
+Epoch Time: 22.96s | Average Loss: 1.8116
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['earth', 'red', 'like', 'bedrooms', '', 'Iceland', 'evolved', 'the', 'country', '']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [45/100]
+[Batch 20/313] Loss: 1.7543
+[Batch 40/313] Loss: 1.7575
+[Batch 60/313] Loss: 1.7654
+[Batch 80/313] Loss: 1.7618
+[Batch 100/313] Loss: 1.7641
+[Batch 120/313] Loss: 1.7728
+[Batch 140/313] Loss: 1.7778
+[Batch 160/313] Loss: 1.7811
+[Batch 180/313] Loss: 1.7862
+[Batch 200/313] Loss: 1.7886
+[Batch 220/313] Loss: 1.7910
+[Batch 240/313] Loss: 1.7960
+[Batch 260/313] Loss: 1.7966
+[Batch 280/313] Loss: 1.7980
+[Batch 300/313] Loss: 1.8022
+Epoch Time: 22.79s | Average Loss: 1.8039
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'bedrooms', 'earth', 'evolved', '', 'red', '', 'books', 'Iceland', 'the']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [46/100]
+[Batch 20/313] Loss: 1.7306
+[Batch 40/313] Loss: 1.7339
+[Batch 60/313] Loss: 1.7456
+[Batch 80/313] Loss: 1.7412
+[Batch 100/313] Loss: 1.7494
+[Batch 120/313] Loss: 1.7582
+[Batch 140/313] Loss: 1.7649
+[Batch 160/313] Loss: 1.7653
+[Batch 180/313] Loss: 1.7726
+[Batch 200/313] Loss: 1.7753
+[Batch 220/313] Loss: 1.7799
+[Batch 240/313] Loss: 1.7866
+[Batch 260/313] Loss: 1.7898
+[Batch 280/313] Loss: 1.7918
+[Batch 300/313] Loss: 1.7961
+Epoch Time: 22.98s | Average Loss: 1.7981
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'bedrooms', '', 'earth', 'red', '', 'Iceland', 'books', '1', 'low']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [47/100]
+[Batch 20/313] Loss: 1.7674
+[Batch 40/313] Loss: 1.7664
+[Batch 60/313] Loss: 1.7600
+[Batch 80/313] Loss: 1.7603
+[Batch 100/313] Loss: 1.7573
+[Batch 120/313] Loss: 1.7621
+[Batch 140/313] Loss: 1.7678
+[Batch 160/313] Loss: 1.7732
+[Batch 180/313] Loss: 1.7784
+[Batch 200/313] Loss: 1.7777
+[Batch 220/313] Loss: 1.7836
+[Batch 240/313] Loss: 1.7873
+[Batch 260/313] Loss: 1.7897
+[Batch 280/313] Loss: 1.7911
+[Batch 300/313] Loss: 1.7911
+Epoch Time: 22.89s | Average Loss: 1.7941
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['earth', 'bedrooms', '', 'Iceland', 'like', 'books', '', 'the', 'red', 'once']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [48/100]
+[Batch 20/313] Loss: 1.7265
+[Batch 40/313] Loss: 1.7306
+[Batch 60/313] Loss: 1.7484
+[Batch 80/313] Loss: 1.7514
+[Batch 100/313] Loss: 1.7563
+[Batch 120/313] Loss: 1.7577
+[Batch 140/313] Loss: 1.7602
+[Batch 160/313] Loss: 1.7640
+[Batch 180/313] Loss: 1.7652
+[Batch 200/313] Loss: 1.7691
+[Batch 220/313] Loss: 1.7759
+[Batch 240/313] Loss: 1.7788
+[Batch 260/313] Loss: 1.7791
+[Batch 280/313] Loss: 1.7844
+[Batch 300/313] Loss: 1.7888
+Epoch Time: 23.01s | Average Loss: 1.7903
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['', 'earth', 'bedrooms', 'like', '', 'the', 'red', 'evolved', 'books', 'very']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [49/100]
+[Batch 20/313] Loss: 1.7200
+[Batch 40/313] Loss: 1.7247
+[Batch 60/313] Loss: 1.7175
+[Batch 80/313] Loss: 1.7241
+[Batch 100/313] Loss: 1.7371
+[Batch 120/313] Loss: 1.7440
+[Batch 140/313] Loss: 1.7462
+[Batch 160/313] Loss: 1.7498
+[Batch 180/313] Loss: 1.7559
+[Batch 200/313] Loss: 1.7610
+[Batch 220/313] Loss: 1.7683
+[Batch 240/313] Loss: 1.7706
+[Batch 260/313] Loss: 1.7752
+[Batch 280/313] Loss: 1.7786
+[Batch 300/313] Loss: 1.7826
+Epoch Time: 23.00s | Average Loss: 1.7854
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['earth', '', 'the', '', 'bedrooms', 'like', 'Iceland', 'country', '1', 'very']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [50/100]
+[Batch 20/313] Loss: 1.7011
+[Batch 40/313] Loss: 1.7095
+[Batch 60/313] Loss: 1.7195
+[Batch 80/313] Loss: 1.7279
+[Batch 100/313] Loss: 1.7319
+[Batch 120/313] Loss: 1.7388
+[Batch 140/313] Loss: 1.7438
+[Batch 160/313] Loss: 1.7494
+[Batch 180/313] Loss: 1.7538
+[Batch 200/313] Loss: 1.7556
+[Batch 220/313] Loss: 1.7589
+[Batch 240/313] Loss: 1.7629
+[Batch 260/313] Loss: 1.7684
+[Batch 280/313] Loss: 1.7719
+[Batch 300/313] Loss: 1.7782
+Epoch Time: 22.88s | Average Loss: 1.7803
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['earth', '', 'Iceland', 'red', 'like', 'books', 'the', 'bedrooms', 'differ', 'evolved']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [51/100]
+[Batch 20/313] Loss: 1.7339
+[Batch 40/313] Loss: 1.7182
+[Batch 60/313] Loss: 1.7196
+[Batch 80/313] Loss: 1.7271
+[Batch 100/313] Loss: 1.7275
+[Batch 120/313] Loss: 1.7390
+[Batch 140/313] Loss: 1.7420
+[Batch 160/313] Loss: 1.7511
+[Batch 180/313] Loss: 1.7574
+[Batch 200/313] Loss: 1.7667
+[Batch 220/313] Loss: 1.7750
+[Batch 240/313] Loss: 1.7841
+[Batch 260/313] Loss: 1.7926
+[Batch 280/313] Loss: 1.8007
+[Batch 300/313] Loss: 1.8067
+Epoch Time: 23.02s | Average Loss: 1.8119
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['red', 'bedrooms', 'like', '', 'books', 'Iceland', '1', 'earth', 'country', '']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [52/100]
+[Batch 20/313] Loss: 1.7597
+[Batch 40/313] Loss: 1.7603
+[Batch 60/313] Loss: 1.7687
+[Batch 80/313] Loss: 1.7701
+[Batch 100/313] Loss: 1.7809
+[Batch 120/313] Loss: 1.7917
+[Batch 140/313] Loss: 1.8039
+[Batch 160/313] Loss: 1.8125
+[Batch 180/313] Loss: 1.8196
+[Batch 200/313] Loss: 1.8266
+[Batch 220/313] Loss: 1.8341
+[Batch 240/313] Loss: 1.8410
+[Batch 260/313] Loss: 1.8498
+[Batch 280/313] Loss: 1.8565
+[Batch 300/313] Loss: 1.8623
+Epoch Time: 22.91s | Average Loss: 1.8647
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['earth', 'Iceland', 'bedrooms', 'fully', 'books', 'like', '', 'country', 'differ', 'the']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [53/100]
+[Batch 20/313] Loss: 1.7728
+[Batch 40/313] Loss: 1.7739
+[Batch 60/313] Loss: 1.7599
+[Batch 80/313] Loss: 1.7704
+[Batch 100/313] Loss: 1.7766
+[Batch 120/313] Loss: 1.7840
+[Batch 140/313] Loss: 1.7936
+[Batch 160/313] Loss: 1.8002
+[Batch 180/313] Loss: 1.8088
+[Batch 200/313] Loss: 1.8155
+[Batch 220/313] Loss: 1.8229
+[Batch 240/313] Loss: 1.8315
+[Batch 260/313] Loss: 1.8369
+[Batch 280/313] Loss: 1.8424
+[Batch 300/313] Loss: 1.8471
+Epoch Time: 22.86s | Average Loss: 1.8517
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'earth', 'pic', '', 'country', 'bedrooms', 'Germany', 'Iceland', 'books', 'evolved']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [54/100]
+[Batch 20/313] Loss: 1.7059
+[Batch 40/313] Loss: 1.7382
+[Batch 60/313] Loss: 1.7458
+[Batch 80/313] Loss: 1.7693
+[Batch 100/313] Loss: 1.7729
+[Batch 120/313] Loss: 1.7772
+[Batch 140/313] Loss: 1.7770
+[Batch 160/313] Loss: 1.7848
+[Batch 180/313] Loss: 1.7919
+[Batch 200/313] Loss: 1.7993
+[Batch 220/313] Loss: 1.8099
+[Batch 240/313] Loss: 1.8157
+[Batch 260/313] Loss: 1.8225
+[Batch 280/313] Loss: 1.8287
+[Batch 300/313] Loss: 1.8329
+Epoch Time: 22.79s | Average Loss: 1.8348
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['evolved', 'books', 'bedrooms', '', 'country', 'like', 'darker', 'pic', 'very', 'Germany']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [55/100]
+[Batch 20/313] Loss: 1.7242
+[Batch 40/313] Loss: 1.7317
+[Batch 60/313] Loss: 1.7402
+[Batch 80/313] Loss: 1.7454
+[Batch 100/313] Loss: 1.7466
+[Batch 120/313] Loss: 1.7489
+[Batch 140/313] Loss: 1.7591
+[Batch 160/313] Loss: 1.7704
+[Batch 180/313] Loss: 1.7797
+[Batch 200/313] Loss: 1.7854
+[Batch 220/313] Loss: 1.7926
+[Batch 240/313] Loss: 1.8003
+[Batch 260/313] Loss: 1.8081
+[Batch 280/313] Loss: 1.8138
+[Batch 300/313] Loss: 1.8211
+Epoch Time: 22.95s | Average Loss: 1.8241
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', '', 'evolved', 'very', 'books', 'earth', 'Iceland', 'country', 'All', 'the']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [56/100]
+[Batch 20/313] Loss: 1.7071
+[Batch 40/313] Loss: 1.7150
+[Batch 60/313] Loss: 1.7387
+[Batch 80/313] Loss: 1.7479
+[Batch 100/313] Loss: 1.7518
+[Batch 120/313] Loss: 1.7602
+[Batch 140/313] Loss: 1.7643
+[Batch 160/313] Loss: 1.7694
+[Batch 180/313] Loss: 1.7780
+[Batch 200/313] Loss: 1.7826
+[Batch 220/313] Loss: 1.7929
+[Batch 240/313] Loss: 1.7981
+[Batch 260/313] Loss: 1.8045
+[Batch 280/313] Loss: 1.8079
+[Batch 300/313] Loss: 1.8107
+Epoch Time: 22.73s | Average Loss: 1.8133
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['earth', 'like', 'very', '', 'Iceland', 'evolved', 'country', 'books', 'bedrooms', 'All']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [57/100]
+[Batch 20/313] Loss: 1.6972
+[Batch 40/313] Loss: 1.7099
+[Batch 60/313] Loss: 1.7244
+[Batch 80/313] Loss: 1.7359
+[Batch 100/313] Loss: 1.7443
+[Batch 120/313] Loss: 1.7491
+[Batch 140/313] Loss: 1.7570
+[Batch 160/313] Loss: 1.7611
+[Batch 180/313] Loss: 1.7649
+[Batch 200/313] Loss: 1.7703
+[Batch 220/313] Loss: 1.7735
+[Batch 240/313] Loss: 1.7812
+[Batch 260/313] Loss: 1.7853
+[Batch 280/313] Loss: 1.7895
+[Batch 300/313] Loss: 1.7911
+Epoch Time: 22.74s | Average Loss: 1.7939
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'earth', 'very', '', 'Iceland', '', 'bedrooms', 'All', 'the', 'is']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [58/100]
+[Batch 20/313] Loss: 1.6793
+[Batch 40/313] Loss: 1.6712
+[Batch 60/313] Loss: 1.6758
+[Batch 80/313] Loss: 1.6807
+[Batch 100/313] Loss: 1.6851
+[Batch 120/313] Loss: 1.6893
+[Batch 140/313] Loss: 1.6899
+[Batch 160/313] Loss: 1.6966
+[Batch 180/313] Loss: 1.6996
+[Batch 200/313] Loss: 1.7000
+[Batch 220/313] Loss: 1.7040
+[Batch 240/313] Loss: 1.7063
+[Batch 260/313] Loss: 1.7081
+[Batch 280/313] Loss: 1.7112
+[Batch 300/313] Loss: 1.7118
+Epoch Time: 22.74s | Average Loss: 1.7142
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'earth', 'Iceland', '', 'bedrooms', 'All', 'd', 'red', 'the', 'pic']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [59/100]
+[Batch 20/313] Loss: 1.6191
+[Batch 40/313] Loss: 1.6405
+[Batch 60/313] Loss: 1.6489
+[Batch 80/313] Loss: 1.6534
+[Batch 100/313] Loss: 1.6521
+[Batch 120/313] Loss: 1.6584
+[Batch 140/313] Loss: 1.6651
+[Batch 160/313] Loss: 1.6696
+[Batch 180/313] Loss: 1.6697
+[Batch 200/313] Loss: 1.6755
+[Batch 220/313] Loss: 1.6808
+[Batch 240/313] Loss: 1.6836
+[Batch 260/313] Loss: 1.6875
+[Batch 280/313] Loss: 1.6920
+[Batch 300/313] Loss: 1.6963
+Epoch Time: 23.03s | Average Loss: 1.6989
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'All', '90%', '', 'Iceland', 'red', 'very', 'evolved', 'the', 'bedrooms']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [60/100]
+[Batch 20/313] Loss: 1.6753
+[Batch 40/313] Loss: 1.6698
+[Batch 60/313] Loss: 1.6726
+[Batch 80/313] Loss: 1.6640
+[Batch 100/313] Loss: 1.6590
+[Batch 120/313] Loss: 1.6625
+[Batch 140/313] Loss: 1.6668
+[Batch 160/313] Loss: 1.6668
+[Batch 180/313] Loss: 1.6686
+[Batch 200/313] Loss: 1.6740
+[Batch 220/313] Loss: 1.6777
+[Batch 240/313] Loss: 1.6821
+[Batch 260/313] Loss: 1.6883
+[Batch 280/313] Loss: 1.6903
+[Batch 300/313] Loss: 1.6952
+Epoch Time: 22.68s | Average Loss: 1.6968
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'All', 'very', '', 'Iceland', '', 'earth', 'to', 'red', 'the']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [61/100]
+[Batch 20/313] Loss: 1.6344
+[Batch 40/313] Loss: 1.6336
+[Batch 60/313] Loss: 1.6403
+[Batch 80/313] Loss: 1.6456
+[Batch 100/313] Loss: 1.6551
+[Batch 120/313] Loss: 1.6565
+[Batch 140/313] Loss: 1.6618
+[Batch 160/313] Loss: 1.6634
+[Batch 180/313] Loss: 1.6657
+[Batch 200/313] Loss: 1.6695
+[Batch 220/313] Loss: 1.6721
+[Batch 240/313] Loss: 1.6761
+[Batch 260/313] Loss: 1.6790
+[Batch 280/313] Loss: 1.6837
+[Batch 300/313] Loss: 1.6878
+Epoch Time: 22.82s | Average Loss: 1.6916
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'All', '', 'Iceland', 'earth', '90%', 'evolved', 'bedrooms', 'country', '']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [62/100]
+[Batch 20/313] Loss: 1.5964
+[Batch 40/313] Loss: 1.6031
+[Batch 60/313] Loss: 1.6181
+[Batch 80/313] Loss: 1.6288
+[Batch 100/313] Loss: 1.6424
+[Batch 120/313] Loss: 1.6447
+[Batch 140/313] Loss: 1.6455
+[Batch 160/313] Loss: 1.6521
+[Batch 180/313] Loss: 1.6647
+[Batch 200/313] Loss: 1.6693
+[Batch 220/313] Loss: 1.6742
+[Batch 240/313] Loss: 1.6764
+[Batch 260/313] Loss: 1.6818
+[Batch 280/313] Loss: 1.6848
+[Batch 300/313] Loss: 1.6855
+Epoch Time: 22.73s | Average Loss: 1.6882
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', '90%', 'All', 'Iceland', 'earth', '', 'bedrooms', 'evolved', '', 'very']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [63/100]
+[Batch 20/313] Loss: 1.5809
+[Batch 40/313] Loss: 1.5874
+[Batch 60/313] Loss: 1.6032
+[Batch 80/313] Loss: 1.6210
+[Batch 100/313] Loss: 1.6356
+[Batch 120/313] Loss: 1.6409
+[Batch 140/313] Loss: 1.6473
+[Batch 160/313] Loss: 1.6543
+[Batch 180/313] Loss: 1.6609
+[Batch 200/313] Loss: 1.6670
+[Batch 220/313] Loss: 1.6729
+[Batch 240/313] Loss: 1.6762
+[Batch 260/313] Loss: 1.6784
+[Batch 280/313] Loss: 1.6820
+[Batch 300/313] Loss: 1.6840
+Epoch Time: 22.90s | Average Loss: 1.6853
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', '90%', 'All', '', 'evolved', 'bedrooms', 'earth', 'very', '', 'Iceland']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [64/100]
+[Batch 20/313] Loss: 1.6145
+[Batch 40/313] Loss: 1.6556
+[Batch 60/313] Loss: 1.6603
+[Batch 80/313] Loss: 1.6731
+[Batch 100/313] Loss: 1.6884
+[Batch 120/313] Loss: 1.7045
+[Batch 140/313] Loss: 1.7103
+[Batch 160/313] Loss: 1.7195
+[Batch 180/313] Loss: 1.7322
+[Batch 200/313] Loss: 1.7383
+[Batch 220/313] Loss: 1.7467
+[Batch 240/313] Loss: 1.7529
+[Batch 260/313] Loss: 1.7585
+[Batch 280/313] Loss: 1.7660
+[Batch 300/313] Loss: 1.7728
+Epoch Time: 22.71s | Average Loss: 1.7776
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', '90%', '', 'All', 'Iceland', 'the', '', 'to', 'red', 'very']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [65/100]
+[Batch 20/313] Loss: 1.6351
+[Batch 40/313] Loss: 1.6523
+[Batch 60/313] Loss: 1.6686
+[Batch 80/313] Loss: 1.6824
+[Batch 100/313] Loss: 1.6911
+[Batch 120/313] Loss: 1.7041
+[Batch 140/313] Loss: 1.7152
+[Batch 160/313] Loss: 1.7256
+[Batch 180/313] Loss: 1.7321
+[Batch 200/313] Loss: 1.7391
+[Batch 220/313] Loss: 1.7444
+[Batch 240/313] Loss: 1.7487
+[Batch 260/313] Loss: 1.7567
+[Batch 280/313] Loss: 1.7611
+[Batch 300/313] Loss: 1.7642
+Epoch Time: 22.76s | Average Loss: 1.7661
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['90%', 'like', 'Iceland', 'All', 'fully', 'earth', 'very', '', 'evolved', 'red']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [66/100]
+[Batch 20/313] Loss: 1.6494
+[Batch 40/313] Loss: 1.6320
+[Batch 60/313] Loss: 1.6477
+[Batch 80/313] Loss: 1.6620
+[Batch 100/313] Loss: 1.6751
+[Batch 120/313] Loss: 1.6854
+[Batch 140/313] Loss: 1.6938
+[Batch 160/313] Loss: 1.7044
+[Batch 180/313] Loss: 1.7103
+[Batch 200/313] Loss: 1.7188
+[Batch 220/313] Loss: 1.7238
+[Batch 240/313] Loss: 1.7288
+[Batch 260/313] Loss: 1.7354
+[Batch 280/313] Loss: 1.7419
+[Batch 300/313] Loss: 1.7491
+Epoch Time: 22.75s | Average Loss: 1.7537
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', '90%', 'All', '', '', 'the', 'Iceland', 'in', 'evolved', 'anti']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [67/100]
+[Batch 20/313] Loss: 1.6258
+[Batch 40/313] Loss: 1.6490
+[Batch 60/313] Loss: 1.6546
+[Batch 80/313] Loss: 1.6622
+[Batch 100/313] Loss: 1.6758
+[Batch 120/313] Loss: 1.6866
+[Batch 140/313] Loss: 1.6975
+[Batch 160/313] Loss: 1.7027
+[Batch 180/313] Loss: 1.7045
+[Batch 200/313] Loss: 1.7097
+[Batch 220/313] Loss: 1.7154
+[Batch 240/313] Loss: 1.7214
+[Batch 260/313] Loss: 1.7253
+[Batch 280/313] Loss: 1.7312
+[Batch 300/313] Loss: 1.7388
+Epoch Time: 22.93s | Average Loss: 1.7420
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'All', '90%', '', 'red', '', 'Iceland', 'in', 'the', 'is']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [68/100]
+[Batch 20/313] Loss: 1.6224
+[Batch 40/313] Loss: 1.6333
+[Batch 60/313] Loss: 1.6396
+[Batch 80/313] Loss: 1.6541
+[Batch 100/313] Loss: 1.6627
+[Batch 120/313] Loss: 1.6699
+[Batch 140/313] Loss: 1.6790
+[Batch 160/313] Loss: 1.6853
+[Batch 180/313] Loss: 1.6940
+[Batch 200/313] Loss: 1.6976
+[Batch 220/313] Loss: 1.7060
+[Batch 240/313] Loss: 1.7115
+[Batch 260/313] Loss: 1.7189
+[Batch 280/313] Loss: 1.7222
+[Batch 300/313] Loss: 1.7253
+Epoch Time: 22.77s | Average Loss: 1.7288
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', '90%', 'All', '', '', 'the', 'red', 'to', 'in', 'Iceland']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [69/100]
+[Batch 20/313] Loss: 1.6184
+[Batch 40/313] Loss: 1.6254
+[Batch 60/313] Loss: 1.6404
+[Batch 80/313] Loss: 1.6514
+[Batch 100/313] Loss: 1.6601
+[Batch 120/313] Loss: 1.6658
+[Batch 140/313] Loss: 1.6710
+[Batch 160/313] Loss: 1.6790
+[Batch 180/313] Loss: 1.6870
+[Batch 200/313] Loss: 1.6930
+[Batch 220/313] Loss: 1.6997
+[Batch 240/313] Loss: 1.7060
+[Batch 260/313] Loss: 1.7114
+[Batch 280/313] Loss: 1.7165
+[Batch 300/313] Loss: 1.7219
+Epoch Time: 22.78s | Average Loss: 1.7255
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', '', 'All', 'is', '', 'red', 'in', 'earth', 'the', 'to']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [70/100]
+[Batch 20/313] Loss: 1.6146
+[Batch 40/313] Loss: 1.6151
+[Batch 60/313] Loss: 1.6227
+[Batch 80/313] Loss: 1.6275
+[Batch 100/313] Loss: 1.6391
+[Batch 120/313] Loss: 1.6497
+[Batch 140/313] Loss: 1.6643
+[Batch 160/313] Loss: 1.6700
+[Batch 180/313] Loss: 1.6764
+[Batch 200/313] Loss: 1.6808
+[Batch 220/313] Loss: 1.6807
+[Batch 240/313] Loss: 1.6808
+[Batch 260/313] Loss: 1.6830
+[Batch 280/313] Loss: 1.6834
+[Batch 300/313] Loss: 1.6829
+Epoch Time: 22.71s | Average Loss: 1.6835
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', '90%', 'All', '', '', 'red', 'in', 'very', 'the', 'is']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [71/100]
+[Batch 20/313] Loss: 1.5648
+[Batch 40/313] Loss: 1.5795
+[Batch 60/313] Loss: 1.5766
+[Batch 80/313] Loss: 1.5863
+[Batch 100/313] Loss: 1.5871
+[Batch 120/313] Loss: 1.5970
+[Batch 140/313] Loss: 1.6000
+[Batch 160/313] Loss: 1.6056
+[Batch 180/313] Loss: 1.6033
+[Batch 200/313] Loss: 1.6047
+[Batch 220/313] Loss: 1.6082
+[Batch 240/313] Loss: 1.6133
+[Batch 260/313] Loss: 1.6164
+[Batch 280/313] Loss: 1.6189
+[Batch 300/313] Loss: 1.6228
+Epoch Time: 23.09s | Average Loss: 1.6244
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', '90%', 'All', 'red', '', 'earth', 'very', 'is', '', 'to']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [72/100]
+[Batch 20/313] Loss: 1.5610
+[Batch 40/313] Loss: 1.5601
+[Batch 60/313] Loss: 1.5667
+[Batch 80/313] Loss: 1.5676
+[Batch 100/313] Loss: 1.5722
+[Batch 120/313] Loss: 1.5780
+[Batch 140/313] Loss: 1.5826
+[Batch 160/313] Loss: 1.5861
+[Batch 180/313] Loss: 1.5899
+[Batch 200/313] Loss: 1.5944
+[Batch 220/313] Loss: 1.5982
+[Batch 240/313] Loss: 1.6038
+[Batch 260/313] Loss: 1.6088
+[Batch 280/313] Loss: 1.6112
+[Batch 300/313] Loss: 1.6153
+Epoch Time: 22.76s | Average Loss: 1.6165
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', '90%', 'All', '', 'red', 'the', 'is', 'very', 'earth', '']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [73/100]
+[Batch 20/313] Loss: 1.5536
+[Batch 40/313] Loss: 1.5465
+[Batch 60/313] Loss: 1.5547
+[Batch 80/313] Loss: 1.5573
+[Batch 100/313] Loss: 1.5662
+[Batch 120/313] Loss: 1.5804
+[Batch 140/313] Loss: 1.5932
+[Batch 160/313] Loss: 1.6039
+[Batch 180/313] Loss: 1.6175
+[Batch 200/313] Loss: 1.6253
+[Batch 220/313] Loss: 1.6320
+[Batch 240/313] Loss: 1.6387
+[Batch 260/313] Loss: 1.6454
+[Batch 280/313] Loss: 1.6537
+[Batch 300/313] Loss: 1.6619
+Epoch Time: 22.73s | Average Loss: 1.6665
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', 'All', 'the', 'is', '', 'red', '90%', 'in', '', 'to']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [74/100]
+[Batch 20/313] Loss: 1.6084
+[Batch 40/313] Loss: 1.6143
+[Batch 60/313] Loss: 1.6246
+[Batch 80/313] Loss: 1.6303
+[Batch 100/313] Loss: 1.6353
+[Batch 120/313] Loss: 1.6464
+[Batch 140/313] Loss: 1.6493
+[Batch 160/313] Loss: 1.6608
+[Batch 180/313] Loss: 1.6685
+[Batch 200/313] Loss: 1.6764
+[Batch 220/313] Loss: 1.6797
+[Batch 240/313] Loss: 1.6858
+[Batch 260/313] Loss: 1.6896
+[Batch 280/313] Loss: 1.6928
+[Batch 300/313] Loss: 1.6973
+Epoch Time: 22.86s | Average Loss: 1.7003
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', '', 'All', 'the', 'earth', '', '90%', 'to', 'is', 'country']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [75/100]
+[Batch 20/313] Loss: 1.5984
+[Batch 40/313] Loss: 1.6123
+[Batch 60/313] Loss: 1.6209
+[Batch 80/313] Loss: 1.6173
+[Batch 100/313] Loss: 1.6231
+[Batch 120/313] Loss: 1.6317
+[Batch 140/313] Loss: 1.6382
+[Batch 160/313] Loss: 1.6481
+[Batch 180/313] Loss: 1.6535
+[Batch 200/313] Loss: 1.6635
+[Batch 220/313] Loss: 1.6684
+[Batch 240/313] Loss: 1.6741
+[Batch 260/313] Loss: 1.6777
+[Batch 280/313] Loss: 1.6812
+[Batch 300/313] Loss: 1.6870
+Epoch Time: 22.75s | Average Loss: 1.6925
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', '90%', '', '', 'earth', 'very', 'to', 'in', 'is', 'evolved']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [76/100]
+[Batch 20/313] Loss: 1.6029
+[Batch 40/313] Loss: 1.5838
+[Batch 60/313] Loss: 1.5976
+[Batch 80/313] Loss: 1.5977
+[Batch 100/313] Loss: 1.6107
+[Batch 120/313] Loss: 1.6229
+[Batch 140/313] Loss: 1.6335
+[Batch 160/313] Loss: 1.6374
+[Batch 180/313] Loss: 1.6430
+[Batch 200/313] Loss: 1.6500
+[Batch 220/313] Loss: 1.6571
+[Batch 240/313] Loss: 1.6635
+[Batch 260/313] Loss: 1.6699
+[Batch 280/313] Loss: 1.6739
+[Batch 300/313] Loss: 1.6781
+Epoch Time: 22.74s | Average Loss: 1.6823
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['90%', 'like', '', 'the', 'in', 'All', '', 'to', 'very', 'small']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [77/100]
+[Batch 20/313] Loss: 1.5768
+[Batch 40/313] Loss: 1.5898
+[Batch 60/313] Loss: 1.6077
+[Batch 80/313] Loss: 1.6137
+[Batch 100/313] Loss: 1.6161
+[Batch 120/313] Loss: 1.6248
+[Batch 140/313] Loss: 1.6332
+[Batch 160/313] Loss: 1.6370
+[Batch 180/313] Loss: 1.6421
+[Batch 200/313] Loss: 1.6477
+[Batch 220/313] Loss: 1.6501
+[Batch 240/313] Loss: 1.6548
+[Batch 260/313] Loss: 1.6594
+[Batch 280/313] Loss: 1.6630
+[Batch 300/313] Loss: 1.6680
+Epoch Time: 22.85s | Average Loss: 1.6726
+
+[Eval Example]:
+What color is the sky? context: Sky is blue
+Top 10 Predictions: ['like', '', 'All', '', 'the', '90%', 'in', 'very', 'is', 'd']
+
+Model saved to /content/drive/MyDrive/model_checkpoints
+
+Epoch [78/100]
+[Batch 20/313] Loss: 1.5752
+[Batch 40/313] Loss: 1.5750
+[Batch 60/313] Loss: 1.5805
+
+------------------------------------------------------------------------------------------------------

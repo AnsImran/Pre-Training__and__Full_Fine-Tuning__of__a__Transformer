@@ -1,0 +1,60 @@
+# Skip the following cells until you reach the one labeled "skip_end!"
+
+# skip_end!
+
+
+# **Pretraining Section - Part-1**
+
+# Dataprocessing for Pre-Training
+
+## Pre-Training Objective
+
+## C4 Dataset Description
+
+## Loading the Data
+
+## Processing C4 Dataset
+
+### Loading Pretrained Tokenizer
+
+### Masked Language Modelling
+
+### Creating Input-Target pairs
+
+
+
+# **Pretraining Section - Part-2**
+
+## Instantiating a New Transformer Model
+
+## Setting up Dataloader
+
+## Training Loop
+
+
+
+# **Fine-Tuning Section Part-1**
+
+# Data Processing for Fine-Tuning
+
+## Data Loading - SQuAD 2.0 Dataset
+
+## Data Parsing
+
+
+# **Fine-Tuning Section Part-1**
+
+## Setting up Dataloader
+
+## Training Loop
+
+## Inference
+
+
+
+# Conclusion & What's Next?
+
+
+
+
+
