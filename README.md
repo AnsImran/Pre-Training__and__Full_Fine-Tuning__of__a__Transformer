@@ -1,3 +1,16 @@
+Note:
+
+This version of the project works well if you expect around a thousand viewers per week.
+But it is **not designed to scale** beyond that.
+
+If you want a highly scalable version, contact me at **[ansimran@protonmail.com](mailto:ansimran@protonmail.com)**.
+
+The main goal here is to **showcase Machine Learning skills**, not full-stack AI development skills.
+
+For an example of my work in full-stack AI development with scalability in mind, you can check this project:
+👉 [Production-ready self-corrective RAG](https://github.com/AnsImran/production-ready-self-corrective-RAG).
+
+---
 # End-to-End NLP Project
 **tags**: PyTorch, Pre-Training, Masked-Language-Modelling, Full-Fine-Tuning, Question-Answering. 
 
